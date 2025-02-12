@@ -1,0 +1,12 @@
+{
+	"name": "node",
+	"module": "index.ts",
+	"type": "module",
+	"devDependencies": {
+		"@types/bun": "latest",
+		"env-guard": "link:env-guard"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}

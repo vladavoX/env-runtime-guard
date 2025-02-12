@@ -1,0 +1,29 @@
+{
+	"version": "0.1.0",
+	"author": "Vladimir Aleksic",
+	"name": "env-guard",
+	"description": "EnvGuard is a lightweight runtime environment variable validator for Node.js and frontend applications. It ensures required environment variables are set, validates types, enforces allowed values, and masks sensitive data in logs.",
+	"type": "module",
+	"license": "MIT",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		"types": "./dist/index.d.ts",
+		"import": "./dist/index.js",
+		"require": "./dist/index.cjs"
+	},
+	"scripts": {
+		"build": "bun run build.ts",
+		"prepublishOnly": "bun run build"
+	},
+	"files": ["dist"],
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/bun": "latest",
+		"bun-plugin-dts": "^0.3.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5.7.3"
+	}
+}
