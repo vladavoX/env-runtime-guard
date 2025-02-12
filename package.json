@@ -1,8 +1,8 @@
 {
 	"version": "0.1.0",
 	"author": "Vladimir Aleksic",
-	"name": "env-guard",
-	"description": "EnvGuard is a lightweight runtime environment variable validator for Node.js and frontend applications. It ensures required environment variables are set, validates types, enforces allowed values, and masks sensitive data in logs.",
+	"name": "env-runtime-guard",
+	"description": "EnvRuntimeGuard is a lightweight runtime environment variable validator for Node.js and frontend applications. It ensures required environment variables are set, validates types, enforces allowed values, and masks sensitive data in logs.",
 	"type": "module",
 	"license": "MIT",
 	"main": "./dist/index.cjs",

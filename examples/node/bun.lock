@@ -5,7 +5,7 @@
       "name": "node",
       "devDependencies": {
         "@types/bun": "latest",
-        "env-guard": "link:env-guard",
+        "env-runtime-guard": "link:env-runtime-guard",
       },
       "peerDependencies": {
         "typescript": "^5.0.0",
@@ -21,7 +21,7 @@
 
     "bun-types": ["bun-types@1.2.2", "", { "dependencies": { "@types/node": "*", "@types/ws": "~8.5.10" } }, "sha512-RCbMH5elr9gjgDGDhkTTugA21XtJAy/9jkKe/G3WR2q17VPGhcquf9Sir6uay9iW+7P/BV0CAHA1XlHXMAVKHg=="],
 
-    "env-guard": ["env-guard@link:env-guard", {}],
+    "env-runtime-guard": ["env-runtime-guard@link:env-runtime-guard", {}],
 
     "typescript": ["typescript@5.7.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw=="],
 
