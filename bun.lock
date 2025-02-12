@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "env-guard",
+      "name": "env-runtime-guard",
       "devDependencies": {
         "@biomejs/biome": "1.9.4",
         "@types/bun": "latest",

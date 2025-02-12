@@ -1,6 +1,6 @@
-# EnvGuard
+# EnvRuntimeGuard
 
-EnvGuard is a lightweight runtime environment variable validator for Node.js and frontend applications. It ensures that required environment variables are set, validates types, enforces allowed values, and masks sensitive data in logs.
+EnvRuntimeGuard is a lightweight runtime environment variable validator for Node.js and frontend applications. It ensures that required environment variables are set, validates types, enforces allowed values, and masks sensitive data in logs.
 
 ## 🚀 Features
 
@@ -15,17 +15,17 @@ EnvGuard is a lightweight runtime environment variable validator for Node.js and
 
 ### Using Bun
 ```sh
-bun add path/to/env-guard --dev
+bun add env-runtime-guard --dev
 ```
 
 ### Using Yarn
 ```sh
-yarn add path/to/env-guard -D
+yarn add env-runtime-guard -D
 ```
 
 ### Using npm
 ```sh
-npm install path/to/env-guard --save-dev
+npm install env-runtime-guard --save-dev
 ```
 
 ## 📖 Usage
@@ -35,7 +35,7 @@ npm install path/to/env-guard --save-dev
 Create an `env.ts` file to validate environment variables at runtime:
 
 ```ts
-import { defineEnv } from "env-guard";
+import { defineEnv } from "env-runtime-guard";
 
 export const env = defineEnv({
     NODE_ENV: { type: "string", required: true, allowed: ["development", "production"] },
@@ -81,7 +81,7 @@ bun test  # Using Bun
 
 ## 🤝 Contributing
 
-Feel free to submit issues or pull requests to improve EnvGuard! Contributions are always welcome. 🚀
+Feel free to submit issues or pull requests to improve EnvRuntimeGuard! Contributions are always welcome. 🚀
 
 ## 📜 License
 

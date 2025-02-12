@@ -4,7 +4,7 @@
 	"type": "module",
 	"devDependencies": {
 		"@types/bun": "latest",
-		"env-guard": "link:env-guard"
+		"env-runtime-guard": "link:env-runtime-guard"
 	},
 	"peerDependencies": {
 		"typescript": "^5.0.0"

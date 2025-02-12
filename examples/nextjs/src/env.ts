@@ -1,4 +1,4 @@
-import { defineEnv } from "env-guard";
+import { defineEnv } from "env-runtime-guard";
 
 export const env = defineEnv({
 	NEXT_PUBLIC_API_URL: { type: "string", required: true, mask: true },
